@@ -20,13 +20,13 @@ function generateMarkdown(userResponses) {
 
    # Table of Contents:
 
-   * [Motivation]
+   * [Motivation](#Motivation)
 
-   * [The Why]
+   * [The Why](#Why)
 
-   * [Lessons Learned]
+   * [Lessons Learned](#Lessons)
 
-   * [Why is it special?]
+   * [Why is it special?](#Special)
    
    - [What is this projects title?]
    ${userResponses.Title}
