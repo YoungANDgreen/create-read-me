@@ -48,7 +48,68 @@ const questions = [
             }
             return true;
         }
-    }
+    },
+    {
+        type: 'input',
+        message: "What is your GitHub Username?",
+        name: 'GitHub',
+        validate: function (answer) {
+            if (answer.length < 1) {
+                return console.log("Input can not be blank.");
+            }
+            return true;
+        }
+    },
+    {
+        type: 'input',
+        message: "How do you install this application?",
+        name: 'Install',
+        validate: function (answer) {
+            if (answer.length < 1) {
+                return console.log("Input can not be blank.");
+            }
+            return true;
+        }
+    },
+    {
+        type: 'input',
+        message: "What is your email?",
+        name: 'Email',
+        validate: function (answer) {
+            if (answer.length < 1) {
+                return console.log("Input can not be blank.");
+            }
+            return true;
+        }
+    },
+    {
+        type: 'list',
+        message: "Choose a license for your project.",
+        choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense'],
+        name: 'license'
+    }, 
+    {
+        type: 'input',
+        message: "What is the Title of your project?",
+        name: 'Title',
+        validate: function (answer) {
+            if (answer.length < 1) {
+                return console.log("Input can not be blank.");
+            }
+            return true;
+        }
+    },
+    {
+        type: 'input',
+        message: "What is the link to your Github Repo?",
+        name: 'Repo',
+        validate: function (answer) {
+            if (answer.length < 1) {
+                return console.log("Input can not be blank.");
+            }
+            return true;
+        }
+    },
 ];
 
 

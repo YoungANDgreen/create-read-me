@@ -1,11 +1,8 @@
-# create-read-me
 
-Created a readme file generating terminal application in order for users to quickly generate a ReadMe.md file without having to go through the normal steps.
-
-  ![GitHub repo language badge](https://img.shields.io/github/languages/top/YoungANDgreen/create-read-me?style=flat&logo=appveyor)
+   ![GitHub repo language badge](https://img.shields.io/github/languages/top/YoungANDgreen/create-read-me?style=flat&logo=appveyor)
    * [License](#license)
    MIT License
-
+   
    # Table of Contents:
 
    * [Motivation]
@@ -15,14 +12,15 @@ Created a readme file generating terminal application in order for users to quic
    * [Lessons Learned]
 
    * [Why is it special?]
-
+   
    - [What is this projects title?]
    Create read me.
    - [Motivation for creating this app?]
   To develop a command line app that dynamically generates a ReadMe file.
-
+  
   - [Why create this app?]
   To enhance my skills as a developer.
+
   - [Lessons learned creating this app?]
   How to navigate and utilize node.js to dynamically generate files.
 
@@ -38,3 +36,4 @@ Created a readme file generating terminal application in order for users to quic
   - [License used]
   MIT License
 
+  
