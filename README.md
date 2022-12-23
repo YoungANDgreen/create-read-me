@@ -33,7 +33,7 @@ Created a readme file generating terminal application in order for users to quic
   YoungANDgreen
 
   - [Repo link:]
-  undefined
+  https://github.com/YoungANDgreen/create-read-me
 
   - [License used]
   MIT License
